@@ -3,7 +3,7 @@
 This demo app shows a simple user profile app set up using 
 - index.html with pure js and css styles
 - nodejs backend with express module
-- mongodb for data storage
+- mongodb for data storage accessed with Docker
 
 ## To start the application using Docker Compose
 
@@ -27,11 +27,10 @@ _You can access the mongo-express under localhost:8080 from your browser_
 The dot "." at the end of the command denotes location of the Dockerfile.
 
 ## Docker Desktop with mongodb and mongo-express containers 
-
-
+<img width="600" alt="docker-desktop" src="https://github.com/user-attachments/assets/a84a09a1-8198-4f5f-9649-d514b823a538">
 
 ## Edit User Profile
-
-
+<img width="200" alt="user-profile" src="https://github.com/user-attachments/assets/5a9eb13e-7980-4218-8b84-5f70a5e4013d">
 
 ## User interface of Docker database mongo-express
+<img width="600" alt="mongo-express" src="https://github.com/user-attachments/assets/75abc499-92e8-4101-a0ba-b85cbc543e8c">
