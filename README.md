@@ -5,6 +5,8 @@ This demo app shows a simple user profile app set up using
 - nodejs backend with express module
 - mongodb for data storage accessed with Docker
 
+All components are docker-based.
+
 ## To start the application using Docker Compose
 
 1. **Start mongodb and mongo-express**
