@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="script" href="index.js">
+    <title>Edit User Profile</title>
+</head>
+<body>
+    <div class='container' id='container'>
+        <h1>User profile</h1>
+        <img src='profile-picture' alt="user-profile">
+        <span>Name: </span><h3 id='name'>Tobias Kjær</h3>
+        <hr />
+        <span>Email: </span><h3 id='email'>tobias.kjaer@example.com</h3>
+        <hr />
+        <span>Interests: </span><h3 id='interests'>coding</h3>
+        <hr />
+        <button class='button' onclick="updateProfile()">Edit Profile</button>
+    </div>
+    <div class='container' id='container-edit'>
+        <h1>User profile</h1>
+        <img src='profile-picture' alt="user-profile">
+        <span>Name: </span><label for='input-name'></label><input type="text" id='input-name' value='Tobias Kjær' />
+        <hr />
+        <span>Email: </span><label for='input-email'></label><input type="email" id='input-email' value='tobias.kjaer@example.com' />
+        <hr />
+        <span>Interests: </span><label for='input-interests'></label><input type="text" id='input-interests' value='coding' />
+        <hr />
+        <button class='button' onclick="handleUpdateProfileRequest()">Update Profile</button>
+    </div>
+    
+</body>
+</body>
+   
